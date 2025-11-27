@@ -30,7 +30,32 @@ proyecto-web-2/
 
 ## 📝 Próximos Pasos
 
-### Paso 2: Instalar Dependencias
+### Paso 2: Documento de Planeación - ✅ COMPLETADO
+
+Ver archivo: **PLANEACION.md**
+
+Incluye:
+- ✅ Alcance completo del proyecto
+- ✅ 10 Casos de uso detallados
+- ✅ 10 Reglas de negocio
+- ✅ Flujos de trabajo
+- ✅ Criterios de aceptación
+- ✅ Plan de implementación por fases
+
+### Paso 3: Diseñar DER (Diagrama Entidad-Relación) - ✅ COMPLETADO
+
+Ver archivo: **DER.md**
+
+Incluye:
+- ✅ Diagrama visual en texto
+- ✅ Entidad User con todos sus campos
+- ✅ Entidad Ticket con todos sus campos
+- ✅ Entidad Comment con todos sus campos
+- ✅ Todas las relaciones documentadas
+- ✅ Consultas SQL comunes
+- ✅ Código Sequelize de ejemplo
+
+### Paso 4: Instalar Dependencias
 
 ```bash
 # Backend
@@ -42,7 +67,7 @@ cd ../frontend
 npm install
 ```
 
-### Paso 3: Configurar Base de Datos
+### Paso 5: Configurar Base de Datos
 
 1. Instalar PostgreSQL (o MySQL)
 2. Crear la base de datos:
@@ -51,22 +76,6 @@ npm install
    ```
 3. Copiar `backend/env.example` a `backend/.env`
 4. Configurar las credenciales en `backend/.env`
-
-### Paso 4: Crear Documento de Planeación
-
-Documentar:
-- Alcance completo del proyecto
-- Casos de uso detallados
-- Reglas de negocio
-- Flujos de usuario
-
-### Paso 5: Diseñar DER (Diagrama Entidad-Relación)
-
-Crear diagrama con:
-- Entidad User (id, firstName, lastName, email, password, role)
-- Entidad Ticket (id, title, description, category, priority, status, creatorId, assignedAgentId)
-- Entidad Comment (id, content, ticketId, userId)
-- Relaciones entre entidades
 
 ### Paso 6: Implementar Modelos de Sequelize
 
@@ -80,9 +89,12 @@ Crear diagrama con:
 
 ## 🎯 Estado Actual
 
-**PASO 1 COMPLETADO** ✅
+**PASO 1 COMPLETADO** ✅ Estructura inicial  
+**PASO 2 COMPLETADO** ✅ Documento de planeación (PLANEACION.md)  
+**PASO 3 COMPLETADO** ✅ Diagrama DER (DER.md)  
+**GITHUB CONFIGURADO** ✅ Repositorio conectado y sincronizado
 
-Siguiente: Paso 2 - Documento de Planeación y DER
+Siguiente: Paso 4 - Instalar dependencias y configurar la base de datos
 
 
 
